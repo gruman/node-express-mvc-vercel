@@ -22,9 +22,7 @@
       </div>
     </header>
     <div class="card">
-      <% // Generate a random integer between 1 and 9999 const randomInt=Math.floor(Math.random() * 9999) + 1; %>
-        <h3>Cow Fact #<%= randomInt %>
-        </h3>
+        <h3></h3>
         <p></p>
     </div>
     <button onclick="reloadFact()">Another Fact</button>
@@ -46,6 +44,7 @@
     }
   }
 
+  reloadFact();
 </script>
 
 </html>
