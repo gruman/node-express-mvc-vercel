@@ -2,7 +2,7 @@
 
 Some Cow facts. Node, Express, GitHub, EJS, and Vercel.
 
-**Tutorial:** [https://gruman.co/bottom-tabs-react-native](https://gruman.co/bottom-tabs-react-native)
+**Tutorial:** [https://gruman.co/cow-facts)](https://gruman.co/cow-facts)
 
 **Portfolio:** [https://gruman.co](https://gruman.co)
 

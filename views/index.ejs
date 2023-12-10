@@ -1,37 +1,34 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Cow Facts</title>
-  <meta
-    name="description"
-    content="The only Cow Industry-verified source of cow facts"
-  />
+  <meta name="description" content="The only Cow Industry-verified source of cow facts" />
 
-  <link rel="stylesheet" href="/css/styles.css">
+  <link rel="stylesheet" href="/styles.css">
   <meta name="keywords" content="random, api, node, express, ejs, cow, cows, facts">
- 
+
 </head>
+
 <body>
   <div class="container">
     <header>
-    <img src="/img/cow.png" />
-    <div>
-  <h1>Cow Facts</h1>
-  <p>Facts about Cows</p>
-  </div>
-  </header>  
-  <div class="card">
-      <%
-  // Generate a random integer between 1 and 9999
-  const randomInt = Math.floor(Math.random() * 9999) + 1;
-    %>
-    <h3>Cow Fact #<%= randomInt %></h3>
-    <p></p>
+      <img src="/cow.png" />
+      <div>
+        <h1>Cow Facts</h1>
+        <p>Facts about Cows</p>
+      </div>
+    </header>
+    <div class="card">
+      <% // Generate a random integer between 1 and 9999 const randomInt=Math.floor(Math.random() * 9999) + 1; %>
+        <h3>Cow Fact #<%= randomInt %>
+        </h3>
+        <p></p>
     </div>
     <button onclick="reloadFact()">Another Fact</button>
-   </div>
+  </div>
 </body>
 <script>
   // Function to reload the fact
@@ -50,5 +47,6 @@
   }
 
   reloadFact();
-  </script>
+</script>
+
 </html>
